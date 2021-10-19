@@ -23,6 +23,7 @@ const SyledHeader = styled(Grid)`
 `;
 
 const StyledLogo = styled(Grid)`
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&family=Staatliches&display=swap');
   display: flex;
 	:hover{
     cursor: pointer;
@@ -37,7 +38,7 @@ const StyledLogo = styled(Grid)`
 	}
   h1{
     padding-left: 2rem;
-    //font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kanit', sans-serif;
     transform: scaleX(0.55) scaleY(1.8);
     font-weight: bolder;
     transform-origin: left;
